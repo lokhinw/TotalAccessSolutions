@@ -1,0 +1,31 @@
+@media (min-width: 768px) {
+  .navbar-nav {
+    float: none;
+    margin: 0 auto;
+    display: table;
+    table-layout: fixed;
+  }
+}
+
+.navbar-nav li>a {
+  font-weight: 700;
+  font-size: 14px;
+  color: #fff !important;
+  margin: 0 10px;
+}
+
+.navbar-brand>img {
+  position: relative;
+  height: 200%;
+  bottom: 10px;
+  width: auto;
+}
+
+.navbar-default {
+  background: rgba(0, 0, 0, 0.4);
+  -moz-box-shadow: 0 0 3px #000;
+  -webkit-box-shadow: 0 0 3px #000;
+  box-shadow: 0 0 3px #000;
+  border: none;
+  border-radius: 0;
+}
