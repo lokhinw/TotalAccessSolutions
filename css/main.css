@@ -29,3 +29,25 @@
   border: none;
   border-radius: 0;
 }
+.landing-page{
+  position: relative;
+  top: 0;
+  left: 0;
+}
+body{
+  background-image: url("../img/bg1.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-color: #999;
+}
+.curve{
+  background-image: url("../img/curve.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-color: #999;
+    z-index: 1;
+}
