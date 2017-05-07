@@ -9,7 +9,7 @@ function carousel() {
     img = 0;
   }
 
-  setTimeout(carousel, 3000);
+  setTimeout(carousel, 30000000);
 }
 
 carousel();
