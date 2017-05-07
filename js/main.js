@@ -8,7 +8,7 @@ $(".landing-page").css("background-image","url(img/bg1.jpg)");
 img = 0;
 }
 
-    setTimeout(carousel, 3000);
+    setTimeout(carousel, 1000000);
 }
 
 carousel();
