@@ -1,8 +1,5 @@
 var img = 0;
 
-<<<<<<< HEAD
-    setTimeout(carousel, 1000000);
-=======
 function carousel() {
   if (img === 0) {
     $(".landing-page").css("background-image", "url(img/bg1.jpg)");
@@ -13,7 +10,6 @@ function carousel() {
   }
 
   setTimeout(carousel, 3000);
->>>>>>> origin/master
 }
 
 carousel();
