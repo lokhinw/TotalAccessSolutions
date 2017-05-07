@@ -41,7 +41,7 @@
 }
 
 .curve {
-  background-image: url("../img/Curve.png");
+  background: url("../img/Curve.png");
   background-position: bottom center;
   background-repeat: no-repeat;
   background-size: cover;
