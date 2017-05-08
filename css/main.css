@@ -10,9 +10,33 @@ body {
     table-layout: fixed;
   }
 }
-.nacbar-nav{
-  
+
+.tas {
+  /*position: absolute;
+  top: 12%;
+  transform: translateX(-50%);
+  left: 50%;*/
+  margin-top:3em;
+  color: #fff;
+  text-shadow: 0px 1px 5px #000;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  text-align: center;
 }
+
+.slogan {
+  /*position: absolute;
+  top: 20%;
+  transform: translateX(-50%);
+  left: 50%;*/
+  color: #472d23;
+  text-shadow: 0px 1px 5px #000;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-weight: 300;
+  text-align: center;
+}
+
 .navbar-nav li>a {
   font-weight: 700;
   font-size: 14px;
@@ -44,6 +68,9 @@ body {
   background-position: center;
   position: relative;
   overflow: hidden;
+  -webkit-transition: all 2s ease-in-out;
+  -moz-transition: all 2s ease-in-out;
+  transition: all 2s ease-in-out;
 }
 
 .curve {
