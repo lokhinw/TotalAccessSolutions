@@ -1,60 +1,26 @@
 @font-face {
-<<<<<<< HEAD
-  font-family: MontserratExtraBold;
-  src: url(MontserratExtraBold.otf);
-=======
    font-family: MontserratExtraBold;
    src: url("../fonts/MontserratExtraBold.otf");
 }
 @font-face {
    font-family: ProximaBold;
    src: url("../fonts/ProximaNovaAltBold.otf");
->>>>>>> cdd3d2618494b5df5904823611548f1e1497c9ae
 }
-
 @font-face {
-<<<<<<< HEAD
-  font-family: ProximaBold;
-  src: url(ProximaNovaAltBold.otf);
-=======
    font-family: ProximaSemibold;
    src: url("../fonts/ProximaNovaAltSemibold.otf");
->>>>>>> cdd3d2618494b5df5904823611548f1e1497c9ae
 }
-
 @font-face {
-<<<<<<< HEAD
-  font-family: ProximaSemibold;
-  src: url(ProximaNovaAltSemibold.otf);
-=======
    font-family: ProximaRegular;
    src: url("../fonts/ProximaNovaAltRegular.otf");
->>>>>>> cdd3d2618494b5df5904823611548f1e1497c9ae
 }
-
 @font-face {
-<<<<<<< HEAD
-  font-family: ProximaRegular;
-  src: url(ProximaNovaAltRegular.otf);
-=======
    font-family: ProximaThin;
    src: url("../fonts/ProximaNovaThin.otf") format("opentype");
->>>>>>> cdd3d2618494b5df5904823611548f1e1497c9ae
 }
-
 @font-face {
-<<<<<<< HEAD
-  font-family: ProximaThin;
-  src: url(ProximaNovaThin.otf) format("opentype");
-=======
    font-family: DinNextBold;
    src: url("../fonts/DiNNextLBold.otf");
->>>>>>> cdd3d2618494b5df5904823611548f1e1497c9ae
-}
-
-@font-face {
-  font-family: DinNextBold;
-  src: url(DiNNextLBold.otf);
 }
 
 @media (min-width: 768px) {
@@ -77,12 +43,8 @@
   text-transform: uppercase;
   letter-spacing: 2px;
   text-align: center;
-<<<<<<< HEAD
   font-family: ProximaThin;
-=======
   text-shadow: 0px 5px 2px #1e1e1e;
-  font-family:ProximaThin;
->>>>>>> cdd3d2618494b5df5904823611548f1e1497c9ae
 }
 
 .slogan {
