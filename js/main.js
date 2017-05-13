@@ -12,7 +12,7 @@ function carousel() {
     img = 0;
   }
 
-  setTimeout(carousel, 5000);
+  setTimeout(carousel, 15000);
 }
 
 carousel();
