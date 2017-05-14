@@ -1,26 +1,31 @@
 @font-face {
-   font-family: MontserratExtraBold;
-   src: url("../fonts/MontserratExtraBold.otf");
+  font-family: MontserratExtraBold;
+  src: url("../fonts/MontserratExtraBold.otf");
 }
+
 @font-face {
-   font-family: ProximaBold;
-   src: url("../fonts/ProximaNovaAltBold.otf");
+  font-family: ProximaBold;
+  src: url("../fonts/ProximaNovaAltBold.otf");
 }
+
 @font-face {
-   font-family: ProximaSemibold;
-   src: url("../fonts/ProximaNovaAltSemibold.otf");
+  font-family: ProximaSemibold;
+  src: url("../fonts/ProximaNovaAltSemibold.otf");
 }
+
 @font-face {
-   font-family: ProximaRegular;
-   src: url("../fonts/ProximaNovaAltRegular.otf");
+  font-family: ProximaRegular;
+  src: url("../fonts/ProximaNovaAltRegular.otf");
 }
+
 @font-face {
-   font-family: ProximaThin;
-   src: url("../fonts/ProximaNovaThin.otf") format("opentype");
+  font-family: ProximaThin;
+  src: url("../fonts/ProximaNovaThin.otf") format("opentype");
 }
+
 @font-face {
-   font-family: DinNextBold;
-   src: url("../fonts/DiNNextLBold.otf");
+  font-family: DinNextBold;
+  src: url("../fonts/DiNNextLBold.otf");
 }
 
 @media (min-width: 768px) {
@@ -54,7 +59,7 @@
   letter-spacing: 2px;
   font-weight: 300;
   text-align: center;
-  font-family:ProximaThin;
+  font-family: ProximaThin;
 }
 
 .phone-number {
@@ -71,7 +76,7 @@
   font-size: 14px;
   color: #fff !important;
   margin: 0 10px;
-  font-family:ProximaBold;
+  font-family: ProximaBold;
 }
 
 .navbar-brand>img {
@@ -80,7 +85,7 @@
   bottom: 10px;
   width: auto;
   display: block;
-    margin: 0 auto;
+  margin: 0 auto;
 }
 
 .navbar-default {
@@ -120,4 +125,18 @@
 
 #services {
   background: #fff4e9;
+}
+
+.service-image {
+  border-radius: 5px;
+  border-color: #ffd2a7;
+  border-width: 2px;
+  border-style: solid;
+  -moz-box-shadow: 0 3px 2px #aaa;
+  -webkit-box-shadow: 0 3px 2px #aaa;
+  box-shadow: 0 3px 2px #aaa;
+}
+.container-fluid{
+  margin-left: 4.5em;
+  margin-right: 4.5em;
 }
