@@ -151,6 +151,19 @@ body{
     margin-right: 7.5vw;
   }
 }
+.product-img{
+  display:block;
+  margin: 0 auto;
+  width:27vw;
+  height:15vw;
+  border-radius: 5px;
+  border-color: lightgrey;
+  border-width: 1px;
+  border-style: solid;
+  -moz-box-shadow: 0 3px 2px #aaa;
+  -webkit-box-shadow: 0 3px 2px #aaa;
+  box-shadow: 0 3px 2px #aaa;
+}
 .sponsor-item {
   color: #999;
   display: block;
