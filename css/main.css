@@ -197,8 +197,62 @@ body{
   .sponsor-item img {
     max-height: 22.5vw;
     max-width: 22.5vw;
+	margin-top: 0% !important;
+  }
+  .sponsor-item-1 img {
+	  margin-top: 25% !important;
   }
 }
 [data-show="names"] .sponsor-item img {
   display: none;
+}
+@media(min-width:611px){
+	.sponsor-item-1 {
+		margin-top: 35%;
+	}
+	.sponsor-item-2 {
+		margin-top: 35%;
+	}
+}
+@media(min-width:1260px){
+	.sponsor-item-1 {
+		margin-top: 50%;
+	}
+	.sponsor-item-2 {
+		margin-top: 50%;
+	}
+	.sponsor-item-3 {
+		margin-top: 50%;
+	}
+}
+@media(min-width:2688px){
+	.sponsor-item-1 {
+		margin-top: 55%;
+	}
+	.sponsor-item-2 {
+		margin-top: 55%;
+	}
+	.sponsor-item-3 {
+		margin-top: 55%;
+	}
+	.sponsor-item-4 {
+		margin-top: 55%;
+	}
+}
+@media(min-width:3930px){
+	.sponsor-item-1 {
+		margin-top: 60%;
+	}
+	.sponsor-item-2 {
+		margin-top: 60%;
+	}
+	.sponsor-item-3 {
+		margin-top: 60%;
+	}
+	.sponsor-item-4 {
+		margin-top: 60%;
+	}
+	.sponsor-item-5 {
+		margin-top: 60%;
+	}
 }
