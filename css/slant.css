@@ -124,7 +124,7 @@ body{
     height: 50px;
     width: 100%;
     position: relative;
-    margin-top:0%;
+    margin-top:;
   opacity: ;
   background: url('https://hd.unsplash.com/uploads/141103282695035fa1380/95cdfeef');
   background-size: 100%;
@@ -136,6 +136,7 @@ body{
     content: '';
     width: 100%;
     height: 100%;
+    margin-top:1.5%;
     position: absolute;
     background:#ffebd7;
     z-index: 0;
