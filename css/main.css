@@ -67,8 +67,6 @@ body{
   border-radius: 0;
 }
 
-
-
 .tas {
   /*position: absolute;
   top: 12%;
@@ -195,6 +193,19 @@ body{
   max-height: 15vw;
   max-width: 15vw;
 }
+.service-image {
+  border-radius: 5px;
+  border-color: #ffd2a7;
+  border-width: 2px;
+  border-style: solid;
+  -moz-box-shadow: 0 3px 2px #aaa;
+  -webkit-box-shadow: 0 3px 2px #aaa;
+  box-shadow: 0 3px 2px #aaa;
+}
+.contact-link:hover{
+
+}
+
 
 @media only screen and (max-width: 40rem) {
   .sponsor-item img {
