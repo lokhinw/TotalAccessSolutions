@@ -202,10 +202,9 @@ body{
   -webkit-box-shadow: 0 3px 2px #aaa;
   box-shadow: 0 3px 2px #aaa;
 }
-.contact-link:hover{
+.contact-link;hover{
 
 }
-
 
 @media only screen and (max-width: 40rem) {
   .sponsor-item img {
