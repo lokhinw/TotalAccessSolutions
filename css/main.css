@@ -29,7 +29,7 @@
 }
 
 body {
-  background-color: #fff4e9;
+  background-color: white;
   z-index: 0;
 }
 
@@ -210,13 +210,7 @@ body {
   -webkit-box-shadow: 0 3px 2px #aaa;
   box-shadow: 0 3px 2px #aaa;
 }
-<<<<<<< HEAD
-.contact-link:hover{
-=======
->>>>>>> origin/master
 
-.contact-link;
-hover {}
 
 @media only screen and (max-width: 40rem) {
   .sponsor-item img {
