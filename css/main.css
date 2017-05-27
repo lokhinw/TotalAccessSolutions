@@ -95,15 +95,65 @@ body {
   font-size: 3em;
   font-family: ProximaThin;
 }
-
-.phone-number {
-  position: absolute;
-  bottom: 22%;
-  left: 82%;
-  color: #472d23;
-  font-weight: 600;
-  text-align: center;
+    /* Custom, iPhone Retina */ 
+    @media only screen and (min-width : 320px) {
+		.phone-number {
+		 position: absolute;
+		  bottom: 6.7%;
+		  right: 5%;
+		  color: #472d23;
+			font-weight:600;
+			font-size:0.85em;
 }
+    }
+
+    /* Extra Small Devices, Phones */ 
+    @media only screen and (min-width : 480px) {
+		.phone-number {
+		 position: absolute;
+		  bottom: 10%;
+		  right: 5%;
+		  color: #472d23;
+			font-weight:600;
+			font-size:0.85em;
+}
+    }
+
+    /* Small Devices, Tablets */
+    @media only screen and (min-width : 768px) {
+		.phone-number {
+		 position: absolute;
+		  bottom: 12%;
+		  right: 5%;
+		  color: #472d23;
+			font-weight:600;
+			font-size:1.25em;
+}
+    }
+
+    /* Medium Devices, Desktops */
+    @media only screen and (min-width : 992px) {
+		.phone-number {
+		 position: absolute;
+		  bottom: 16%;
+		  right: 5%;
+		  color: #472d23;
+			font-weight:600;
+			font-size:1.55em;
+}
+    }
+
+    /* Large Devices, Wide Screens */
+    @media only screen and (min-width : 1200px) {
+		.phone-number {
+		 position: absolute;
+		  bottom: 23%;
+		  right: 5%;
+		  color: #472d23;
+			font-weight:600;
+			font-size:2em;
+}
+    }
 
 .landing-page {
   background: url("../img/bg2.jpg");
