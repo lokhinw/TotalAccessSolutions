@@ -48,12 +48,19 @@ body {
   color: #fff !important;
   margin: 0 10px;
   font-family: ProximaBold;
+  height: 70px;
+  letter-spacing: 2px;
+}
+
+.navbar-nav li a {
+  padding: 0 15px;
+  line-height: 70px;
 }
 
 .navbar-brand>img {
   position: relative;
-  height: 200%;
-  bottom: 10px;
+  height: 80%;
+  top: 7px;
   width: auto;
   display: block;
   margin: 0 auto;
@@ -95,65 +102,76 @@ body {
   font-size: 3em;
   font-family: ProximaThin;
 }
-    /* Custom, iPhone Retina */ 
-    @media only screen and (min-width : 320px) {
-		.phone-number {
-		 position: absolute;
-		  bottom: 6.7%;
-		  right: 5%;
-		  color: #472d23;
-			font-weight:600;
-			font-size:0.85em;
-}
-    }
 
-    /* Extra Small Devices, Phones */ 
-    @media only screen and (min-width : 480px) {
-		.phone-number {
-		 position: absolute;
-		  bottom: 10%;
-		  right: 5%;
-		  color: #472d23;
-			font-weight:600;
-			font-size:0.85em;
-}
-    }
 
-    /* Small Devices, Tablets */
-    @media only screen and (min-width : 768px) {
-		.phone-number {
-		 position: absolute;
-		  bottom: 12%;
-		  right: 5%;
-		  color: #472d23;
-			font-weight:600;
-			font-size:1.25em;
-}
-    }
+/* Custom, iPhone Retina */
 
-    /* Medium Devices, Desktops */
-    @media only screen and (min-width : 992px) {
-		.phone-number {
-		 position: absolute;
-		  bottom: 16%;
-		  right: 5%;
-		  color: #472d23;
-			font-weight:600;
-			font-size:1.55em;
+@media only screen and (min-width: 320px) {
+  .phone-number {
+    position: absolute;
+    bottom: 6.7%;
+    right: 5%;
+    color: #472d23;
+    font-weight: 600;
+    font-size: 0.85em;
+  }
 }
-    }
 
-    /* Large Devices, Wide Screens */
-    @media only screen and (min-width : 1200px) {
-		.phone-number {
-		 position: absolute;
-		  bottom: 23%;
-		  right: 5%;
-		  color: #472d23;
-			font-weight:600;
-			font-size:2em;
+
+/* Extra Small Devices, Phones */
+
+@media only screen and (min-width: 480px) {
+  .phone-number {
+    position: absolute;
+    bottom: 10%;
+    right: 5%;
+    color: #472d23;
+    font-weight: 600;
+    font-size: 0.85em;
+  }
 }
-    }
+
+
+/* Small Devices, Tablets */
+
+@media only screen and (min-width: 768px) {
+  .phone-number {
+    position: absolute;
+    bottom: 12%;
+    right: 5%;
+    color: #472d23;
+    font-weight: 600;
+    font-size: 1.25em;
+  }
+}
+
+
+/* Medium Devices, Desktops */
+
+@media only screen and (min-width: 992px) {
+  .phone-number {
+    position: absolute;
+    bottom: 16%;
+    right: 5%;
+    color: #472d23;
+    font-weight: 600;
+    font-size: 1.55em;
+  }
+}
+
+
+/* Large Devices, Wide Screens */
+
+@media only screen and (min-width: 1200px) {
+  .phone-number {
+    position: absolute;
+    bottom: 23%;
+    right: 5%;
+    color: #472d23;
+    font-weight: 600;
+    font-size: 2em;
+  }
+}
 
 .landing-page {
   background: url("../img/bg2.jpg");
@@ -251,7 +269,8 @@ body {
   max-width: 15vw;
 }
 
-.service-image {
+
+/*.service-image {
   border-radius: 5px;
   border-color: #ffd2a7;
   border-width: 2px;
@@ -259,8 +278,7 @@ body {
   -moz-box-shadow: 0 3px 2px #aaa;
   -webkit-box-shadow: 0 3px 2px #aaa;
   box-shadow: 0 3px 2px #aaa;
-}
-
+}*/
 
 @media only screen and (max-width: 40rem) {
   .sponsor-item img {
@@ -338,20 +356,28 @@ input, textarea, button, a {
 }
 
 #name, #email, #message, #phone {
-  padding-bottom:1.5%;
-  width: 40%;
+  padding-bottom: 1.5%;
+  width: 90%;
   border: none;
   border-bottom: 2px solid #837b74;
   font-size: 18px;
   background: transparent;
 }
-#message{
-  height:4em;
+
+#message {
+  height: 4em;
 }
+
 #map {
-        height: 40em;
-        margin-top:-9.2em;
-        margin-left:;
-        margin-right:-32em;
-        width: 1%;
-       }
+  height: 10vw;
+  margin-top: 0;
+  margin-left: ;
+  margin-right: -32em;
+  width: 110%;
+  padding-right: em;
+}
+
+.panel-default {
+  border-radius: 10px;
+  box-shadow: 0px 1.6px 7px lightgray;
+}
