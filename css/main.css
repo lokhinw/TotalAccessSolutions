@@ -411,8 +411,7 @@ input, textarea, button, a {
 }
 
 #map {
-  height: 75vh;
-  margin-top: -15.4vh;
+  height: 34em;
   width: 110%;
   padding-right: -32em;
 }
