@@ -455,10 +455,14 @@ span.text-content span {
 	position: relative;
 	display: inline-block;
 	overflow: hidden;
-	max-width:25em;
+	max-width:30em;
+  max-height:20em;
 	height: auto;
   display: block;
   margin:0 auto;
+  border-radius: 5px;
+  border-color: lightgrey;
+  border-width: 1px;
 }
 
 .hvrbox .hvrbox-layer_bottom {
@@ -515,7 +519,7 @@ span.text-content span {
     background-position: 50% 50%;
     display: block;
     margin: 0 auto;
-    width: 25em;
+    width: 30em;
     height: 20em;
     border-radius: 5px;
     border-color: lightgrey;
