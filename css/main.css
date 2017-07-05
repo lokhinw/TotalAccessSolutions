@@ -455,14 +455,10 @@ span.text-content span {
 	position: relative;
 	display: inline-block;
 	overflow: hidden;
-	max-width:30em;
-  max-height:20em;
+	max-width:25em;
 	height: auto;
   display: block;
   margin:0 auto;
-  border-radius: 5px;
-  border-color: lightgrey;
-  border-width: 1px;
 }
 
 .hvrbox .hvrbox-layer_bottom {
@@ -497,6 +493,7 @@ span.text-content span {
 	-webkit-transform: translate(-50%, -50%);
 	-ms-transform: translate(-50%, -50%);
 	transform: translate(-50%, -50%);
+
 }
 .hvrbox .hvrbox-text_mobile {
 	font-size: 15px;
@@ -519,7 +516,7 @@ span.text-content span {
     background-position: 50% 50%;
     display: block;
     margin: 0 auto;
-    width: 30em;
+    width: 25em;
     height: 20em;
     border-radius: 5px;
     border-color: lightgrey;
