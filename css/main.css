@@ -129,7 +129,7 @@ body {
 @media only screen and (min-width: 480px) {
   .phone-number {
     position: absolute;
-    bottom: 50px;
+    bottom: 60px;
     right: 15px;
     color: #472d23;
     font-weight: 600;
@@ -137,7 +137,7 @@ body {
   }
   .social-media-container {
     position: absolute;
-    bottom: 80px;
+    bottom: 90px;
     right: 10px;
   }
   .social-icon {
@@ -146,6 +146,25 @@ body {
   }
 }
 
+@media only screen and (min-width: 640px) {
+  .phone-number {
+    position: absolute;
+    bottom: 90px;
+    right: 15px;
+    color: #472d23;
+    font-weight: 600;
+    font-size: 15px;
+  }
+  .social-media-container {
+    position: absolute;
+    bottom: 120px;
+    right: 10px;
+  }
+  .social-icon {
+    height: 18px !important;
+    height: 18px !important;
+  }
+}
 
 /* Small Devices, Tablets */
 
@@ -195,7 +214,7 @@ body {
 
 /* Large Devices, Wide Screens */
 
-@media only screen and (min-width: 1200px) {
+@media only screen and (min-width: 1280px) {
   .phone-number {
     position: absolute;
     bottom: 20%;
@@ -206,7 +225,7 @@ body {
   }
   .social-media-container {
     position: absolute;
-    bottom: 27%;
+    bottom: 25%;
     right: 30px;
   }
   .social-icon {
@@ -215,6 +234,45 @@ body {
   }
 }
 
+
+@media only screen and (min-width: 1366px) {
+  .phone-number {
+    position: absolute;
+    bottom: 17%;
+    right: 30px;
+    color: #472d23;
+    font-weight: 600;
+    font-size: 25px;
+  }
+  .social-media-container {
+    position: absolute;
+    bottom: 24%;
+    right: 30px;
+  }
+  .social-icon {
+    height: 32px !important;
+    height: 32px !important;
+  }
+}
+@media only screen and (min-width: 1662px) {
+  .phone-number {
+    position: absolute;
+    bottom: 21%;
+    right: 30px;
+    color: #472d23;
+    font-weight: 600;
+    font-size: 40px;
+  }
+  .social-media-container {
+    position: absolute;
+    bottom: 28%;
+    right: 30px;
+  }
+  .social-icon {
+    height: 32px !important;
+    height: 32px !important;
+  }
+}
 .landing-page {
   background: url("../img/bg2.jpg");
   background-size: cover;
