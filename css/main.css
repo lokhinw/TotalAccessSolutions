@@ -440,7 +440,7 @@ input, textarea, button, a {
   font-family: ProximaBold;
 }
 
-#name, #email, #message, #phone {
+#name, #email, #msg, #phone {
   padding-bottom: 1.5%;
   width: 100%;
   border: none;
@@ -449,7 +449,7 @@ input, textarea, button, a {
   background: transparent;
 }
 
-#message {
+#msg {
   height: 4em;
 }
 
@@ -568,6 +568,10 @@ span.text-content span {
 
 }
 
+.form_status {
+	font-size: 16px;
+	font-family: ProximaBold;
+}
 /*
 
 .hvrbox .hvrbox-layer_bottom {
