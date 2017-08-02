@@ -106,7 +106,7 @@ body {
 @media only screen and (min-width: 320px) {
   .phone-number {
     position: absolute;
-    bottom: 35px;
+    bottom: 30px;
     right: 15px;
     color: #472d23;
     font-weight: 600;
@@ -114,7 +114,7 @@ body {
   }
   .social-media-container {
     position: absolute;
-    bottom: 55px;
+    bottom: 50px;
     right: 10px;
   }
   .social-icon {
@@ -153,7 +153,7 @@ body {
     right: 15px;
     color: #472d23;
     font-weight: 600;
-    font-size: 15px;
+    font-size: 25px;
   }
   .social-media-container {
     position: absolute;
@@ -161,8 +161,8 @@ body {
     right: 10px;
   }
   .social-icon {
-    height: 18px !important;
-    height: 18px !important;
+    height: 28px !important;
+    height: 28px !important;
   }
 }
 
@@ -171,7 +171,7 @@ body {
 @media only screen and (min-width: 768px) {
   .phone-number {
     position: absolute;
-    bottom: 90px;
+    bottom: 100px;
     right: 25px;
     color: #472d23;
     font-weight: 600;
@@ -179,7 +179,7 @@ body {
   }
   .social-media-container {
     position: absolute;
-    bottom: 130px;
+    bottom: 140px;
     right: 30px;
   }
   .social-icon {
@@ -225,7 +225,7 @@ body {
   }
   .social-media-container {
     position: absolute;
-    bottom: 25%;
+    bottom: 40px !IMPORTANT;
     right: 30px;
   }
   .social-icon {
@@ -544,13 +544,14 @@ span.text-content span {
 	display: block;
 }
 .hvrbox-layer_bottom{
-  background-image: url("https://www.w3schools.com/css/img_mountains.jpg");
+
 }
 
 .product-img {
     background-size: cover;
     background-repeat: no-repeat;
-    background-position: 50% 50%;
+    background-position: 10% 50%;
+    margin-bottom:120px;
     display: block;
     margin: 0 auto;
     width: 56em;
