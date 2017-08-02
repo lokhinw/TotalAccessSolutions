@@ -380,7 +380,7 @@ body {
   display: none;
 }
 
-@media(min-width:611px) {
+@media(min-width:640px) {
   .sponsor-item-1 {
     margin-top: 35%;
   }
