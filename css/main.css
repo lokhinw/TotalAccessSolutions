@@ -105,7 +105,7 @@ body {
 }
     }
 
-    /* Extra Small Devices, Phones */ 
+    /* Extra Small Devices, Phones */
     @media only screen and (min-width : 480px) {
 .tas {
   /*position: absolute;
@@ -314,7 +314,7 @@ body {
 @media only screen and (min-width: 1280px) {
   .phone-number {
     position: absolute;
-    bottom: 20%;
+    bottom: 45% !important;
     right: 30px;
     color: #472d23;
     font-weight: 600;
@@ -322,7 +322,7 @@ body {
   }
   .social-media-container {
     position: absolute;
-    bottom: 40px !IMPORTANT;
+    bottom: 120px !IMPORTANT;
     right: 30px;
   }
   .social-icon {
@@ -334,7 +334,7 @@ body {
 @media only screen and (min-width: 1366px) {
   .phone-number {
     position: absolute;
-    bottom: 160px;
+    bottom: 0px !important;
     right: 40px;
     color: #472d23;
     font-weight: 600;
@@ -342,7 +342,7 @@ body {
   }
   .social-media-container {
     position: absolute;
-    bottom: 140px !important;
+    bottom: 10px !important;
     right: 36px;
   }
   .social-icon {
