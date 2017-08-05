@@ -106,7 +106,7 @@ body {
 @media only screen and (min-width: 320px) {
   .phone-number {
     position: absolute;
-    bottom: 30px;
+    bottom: 35px;
     right: 15px;
     color: #472d23;
     font-weight: 600;
@@ -114,7 +114,7 @@ body {
   }
   .social-media-container {
     position: absolute;
-    bottom: 50px;
+    bottom: 55px;
     right: 10px;
   }
   .social-icon {
@@ -149,7 +149,7 @@ body {
 @media only screen and (min-width: 640px) {
   .phone-number {
     position: absolute;
-    bottom: 90px;
+    bottom: 70px;
     right: 15px;
     color: #472d23;
     font-weight: 600;
@@ -157,7 +157,7 @@ body {
   }
   .social-media-container {
     position: absolute;
-    bottom: 120px;
+    bottom: 110px;
     right: 10px;
   }
   .social-icon {
@@ -234,24 +234,23 @@ body {
   }
 }
 
-
 @media only screen and (min-width: 1366px) {
   .phone-number {
     position: absolute;
-    bottom: 17%;
-    right: 30px;
+    bottom: 160px;
+    right: 40px;
     color: #472d23;
     font-weight: 600;
     font-size: 25px;
   }
   .social-media-container {
     position: absolute;
-    bottom: 24%;
-    right: 30px;
+    bottom: 140px !important;
+    right: 36px;
   }
   .social-icon {
-    height: 32px !important;
-    height: 32px !important;
+    height: 29px !important;
+    height: 29px !important;
   }
 }
 @media only screen and (min-width: 1662px) {
@@ -550,12 +549,13 @@ span.text-content span {
 .product-img {
     background-size: cover;
     background-repeat: no-repeat;
-    background-position: 10% 50%;
+    background-position: 0;
     margin-bottom:120px;
     display: block;
     margin: 0 auto;
     width: 56em;
     height: 20em;
+
     border-radius: 5px;
     border-color: lightgrey;
     border-width: 1px;
