@@ -105,7 +105,7 @@ body {
 }
     }
 
-    /* Extra Small Devices, Phones */
+    /* Extra Small Devices, Phones */ 
     @media only screen and (min-width : 480px) {
 .tas {
   /*position: absolute;
@@ -203,7 +203,7 @@ body {
 @media only screen and (min-width: 320px) {
   .phone-number {
     position: absolute;
-    bottom: 35px;
+    bottom: 30px;
     right: 15px;
     color: #472d23;
     font-weight: 600;
@@ -211,7 +211,7 @@ body {
   }
   .social-media-container {
     position: absolute;
-    bottom: 55px;
+    bottom: 50px;
     right: 10px;
   }
   .social-icon {
@@ -246,7 +246,7 @@ body {
 @media only screen and (min-width: 640px) {
   .phone-number {
     position: absolute;
-    bottom: 70px;
+    bottom: 90px;
     right: 15px;
     color: #472d23;
     font-weight: 600;
@@ -254,7 +254,7 @@ body {
   }
   .social-media-container {
     position: absolute;
-    bottom: 110px;
+    bottom: 120px;
     right: 10px;
   }
   .social-icon {
@@ -314,7 +314,7 @@ body {
 @media only screen and (min-width: 1280px) {
   .phone-number {
     position: absolute;
-    bottom: 45% !important;
+    bottom: 25%;
     right: 30px;
     color: #472d23;
     font-weight: 600;
@@ -322,7 +322,7 @@ body {
   }
   .social-media-container {
     position: absolute;
-    bottom: 120px !IMPORTANT;
+    bottom: 40px !IMPORTANT;
     right: 30px;
   }
   .social-icon {
@@ -331,23 +331,24 @@ body {
   }
 }
 
+
 @media only screen and (min-width: 1366px) {
   .phone-number {
     position: absolute;
-    bottom: 0px !important;
-    right: 40px;
+    bottom: 17%;
+    right: 30px;
     color: #472d23;
     font-weight: 600;
     font-size: 25px;
   }
   .social-media-container {
     position: absolute;
-    bottom: 10px !important;
-    right: 36px;
+    bottom: 24%;
+    right: 30px;
   }
   .social-icon {
-    height: 29px !important;
-    height: 29px !important;
+    height: 32px !important;
+    height: 32px !important;
   }
 }
 @media only screen and (min-width: 1662px) {
@@ -646,13 +647,12 @@ span.text-content span {
 .product-img {
     background-size: cover;
     background-repeat: no-repeat;
-    background-position: 0;
+    background-position: 10% 50%;
     margin-bottom:120px;
     display: block;
     margin: 0 auto;
     width: 56em;
     height: 20em;
-
     border-radius: 5px;
     border-color: lightgrey;
     border-width: 1px;
