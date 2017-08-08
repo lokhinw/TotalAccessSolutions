@@ -180,7 +180,7 @@ body {
   letter-spacing: 2px;
   text-align: center;
   font-family: ProximaThin;
-  font-size: 60px;
+  font-size: 80px;
   font-weight: 500;
   text-shadow: 0px 5px 5px #1e1e1e;
 }
@@ -191,7 +191,7 @@ body {
   letter-spacing: 2px;
   font-weight: 300;
   text-align: center;
-  font-size: 40px;
+  font-size: 60px;
   font-family: ProximaThin;
 }
     }
@@ -203,172 +203,164 @@ body {
 @media only screen and (min-width: 320px) {
   .phone-number {
     position: absolute;
-    bottom: 35px;
-    right: 15px;
+    bottom: 47px;
+    right: 13px;
     color: #472d23;
     font-weight: 600;
-    font-size: 10px;
+    font-size: 12px;
   }
   .social-media-container {
     position: absolute;
-    bottom: 55px;
+    bottom: 70px;
     right: 10px;
   }
   .social-icon {
-    height: 13px !important;
-    height: 13px !important;
+    height: 12px !important;
+    width: auto !important;
   }
 }
-
-
-/* Extra Small Devices, Phones */
 
 @media only screen and (min-width: 480px) {
   .phone-number {
     position: absolute;
-    bottom: 60px;
-    right: 15px;
+    bottom: 62px;
+    right: 13px;
     color: #472d23;
     font-weight: 600;
-    font-size: 15px;
+    font-size: 17px;
   }
   .social-media-container {
     position: absolute;
-    bottom: 90px;
+    bottom: 92px;
     right: 10px;
   }
   .social-icon {
-    height: 18px !important;
-    height: 18px !important;
+    height: 17px !important;
+    width: auto !important;
   }
 }
 
 @media only screen and (min-width: 640px) {
   .phone-number {
     position: absolute;
-    bottom: 70px;
-    right: 15px;
+    bottom: 75px;
+    right: 13px;
     color: #472d23;
     font-weight: 600;
-    font-size: 25px;
+    font-size: 21px;
   }
   .social-media-container {
     position: absolute;
-    bottom: 110px;
+    bottom: 115px;
     right: 10px;
   }
   .social-icon {
-    height: 28px !important;
-    height: 28px !important;
+    height: 21px !important;
+    width: auto !important;
   }
 }
-
-/* Small Devices, Tablets */
 
 @media only screen and (min-width: 768px) {
   .phone-number {
     position: absolute;
     bottom: 100px;
-    right: 25px;
+    right: 13px;
     color: #472d23;
     font-weight: 600;
-    font-size: 23px;
+    font-size: 27px;
   }
   .social-media-container {
     position: absolute;
-    bottom: 140px;
-    right: 30px;
+    bottom: 145px;
+    right: 10px;
   }
   .social-icon {
-    height: 25px !important;
-    height: 25px !important;
+    height: 27px !important;
+    width: auto !important;
   }
 }
 
-
-/* Medium Devices, Desktops */
-
-@media only screen and (min-width: 992px) {
+@media only screen and (min-width: 1024px) {
   .phone-number {
     position: absolute;
-    bottom: 95px;
-    right: 30px;
+    bottom: 125px;
+    right: 13px;
     color: #472d23;
     font-weight: 600;
-    font-size: 20px;
+    font-size: 27px;
   }
   .social-media-container {
     position: absolute;
-    bottom: 132px;
-    right: 30px;
+    bottom: 175px;
+    right: 10px;
   }
   .social-icon {
     height: 27px !important;
-    height: 27px !important;
+    width: auto !important;
   }
 }
-
-
-/* Large Devices, Wide Screens */
-
 @media only screen and (min-width: 1280px) {
   .phone-number {
     position: absolute;
-    bottom: 45% !important;
-    right: 30px;
+    bottom: 190px;
+    right: 13px;
     color: #472d23;
     font-weight: 600;
-    font-size: 25px;
+    font-size: 30px;
   }
   .social-media-container {
     position: absolute;
-    bottom: 120px !IMPORTANT;
-    right: 30px;
+    bottom: 185px;
+    right: 10px;
   }
   .social-icon {
-    height: 32px !important;
-    height: 32px !important;
+    height: 30px !important;
+    width: auto !important;
   }
 }
 
 @media only screen and (min-width: 1366px) {
   .phone-number {
     position: absolute;
-    bottom: 0px !important;
-    right: 40px;
+    bottom: 135px;
+    right: 13px;
     color: #472d23;
     font-weight: 600;
-    font-size: 25px;
+    font-size: 30px;
   }
   .social-media-container {
     position: absolute;
-    bottom: 10px !important;
-    right: 36px;
+    bottom: 185px;
+    right: 10px;
   }
   .social-icon {
-    height: 29px !important;
-    height: 29px !important;
+    height: 30px !important;
+    width: auto !important;
   }
 }
-@media only screen and (min-width: 1662px) {
+
+@media only screen and (min-width: 1680px) {
   .phone-number {
     position: absolute;
-    bottom: 21%;
-    right: 30px;
+    bottom: 220px;
+    right: 13px;
     color: #472d23;
     font-weight: 600;
-    font-size: 40px;
+    font-size: 38px;
   }
   .social-media-container {
     position: absolute;
-    bottom: 28%;
-    right: 30px;
+    bottom: 270px;
+    right: 10px;
   }
   .social-icon {
-    height: 32px !important;
-    height: 32px !important;
+    height: 38px !important;
+    width: auto !important;
   }
 }
+
+
+
 .landing-page {
   background: url("../img/bg2.jpg");
   background-size: cover;
