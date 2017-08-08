@@ -105,7 +105,7 @@ body {
 }
     }
 
-    /* Extra Small Devices, Phones */
+    /* Extra Small Devices, Phones */ 
     @media only screen and (min-width : 480px) {
 .tas {
   /*position: absolute;
@@ -203,15 +203,24 @@ body {
 @media only screen and (min-width: 320px) {
   .phone-number {
     position: absolute;
+<<<<<<< HEAD
     bottom: 47px;
     right: 13px;
+=======
+    bottom: 30px;
+    right: 15px;
+>>>>>>> c72ea94023a7ccbeeae45740b970cbf15d94589d
     color: #472d23;
     font-weight: 600;
     font-size: 12px;
   }
   .social-media-container {
     position: absolute;
+<<<<<<< HEAD
     bottom: 70px;
+=======
+    bottom: 50px;
+>>>>>>> c72ea94023a7ccbeeae45740b970cbf15d94589d
     right: 10px;
   }
   .social-icon {
@@ -243,15 +252,24 @@ body {
 @media only screen and (min-width: 640px) {
   .phone-number {
     position: absolute;
+<<<<<<< HEAD
     bottom: 75px;
     right: 13px;
+=======
+    bottom: 90px;
+    right: 15px;
+>>>>>>> c72ea94023a7ccbeeae45740b970cbf15d94589d
     color: #472d23;
     font-weight: 600;
     font-size: 21px;
   }
   .social-media-container {
     position: absolute;
+<<<<<<< HEAD
     bottom: 115px;
+=======
+    bottom: 120px;
+>>>>>>> c72ea94023a7ccbeeae45740b970cbf15d94589d
     right: 10px;
   }
   .social-icon {
@@ -302,16 +320,26 @@ body {
 @media only screen and (min-width: 1280px) {
   .phone-number {
     position: absolute;
+<<<<<<< HEAD
     bottom: 190px;
     right: 13px;
+=======
+    bottom: 25%;
+    right: 30px;
+>>>>>>> c72ea94023a7ccbeeae45740b970cbf15d94589d
     color: #472d23;
     font-weight: 600;
     font-size: 30px;
   }
   .social-media-container {
     position: absolute;
+<<<<<<< HEAD
     bottom: 185px;
     right: 10px;
+=======
+    bottom: 40px !IMPORTANT;
+    right: 30px;
+>>>>>>> c72ea94023a7ccbeeae45740b970cbf15d94589d
   }
   .social-icon {
     height: 30px !important;
@@ -319,23 +347,38 @@ body {
   }
 }
 
+
 @media only screen and (min-width: 1366px) {
   .phone-number {
     position: absolute;
+<<<<<<< HEAD
     bottom: 135px;
     right: 13px;
+=======
+    bottom: 17%;
+    right: 30px;
+>>>>>>> c72ea94023a7ccbeeae45740b970cbf15d94589d
     color: #472d23;
     font-weight: 600;
     font-size: 30px;
   }
   .social-media-container {
     position: absolute;
+<<<<<<< HEAD
     bottom: 185px;
     right: 10px;
   }
   .social-icon {
     height: 30px !important;
     width: auto !important;
+=======
+    bottom: 24%;
+    right: 30px;
+  }
+  .social-icon {
+    height: 32px !important;
+    height: 32px !important;
+>>>>>>> c72ea94023a7ccbeeae45740b970cbf15d94589d
   }
 }
 
@@ -638,13 +681,12 @@ span.text-content span {
 .product-img {
     background-size: cover;
     background-repeat: no-repeat;
-    background-position: 0;
+    background-position: 10% 50%;
     margin-bottom:120px;
     display: block;
     margin: 0 auto;
     width: 56em;
     height: 20em;
-
     border-radius: 5px;
     border-color: lightgrey;
     border-width: 1px;
