@@ -48,3 +48,7 @@ form.submit(function(event) {
       form_status.html('<p>Sorry, invalid input. Try again.</p>').delay(3000).fadeOut();
     });
 });
+
+$(".side-panel").on("click", function(){
+  $(this).toggleClass("side-panel--close");
+});
