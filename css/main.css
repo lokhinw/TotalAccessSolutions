@@ -817,6 +817,7 @@ hr{border:0;border-top:1px solid #eee;margin:20px 0}
 .w3-border-white,.w3-hover-border-white:hover{border-color:#fff!important}
 .w3-border-black,.w3-hover-border-black:hover{border-color:#000!important}
 .w3-border-grey,.w3-hover-border-grey:hover,.w3-border-gray,.w3-hover-border-gray:hover{border-color:#bbb!important}
+<<<<<<< HEAD
 
 .unicode {
   padding: 0 20px;
@@ -865,3 +866,5 @@ hr{border:0;border-top:1px solid #eee;margin:20px 0}
   color: #fff;
   background-color: rgba(71, 45, 35, 0.75);
 }
+=======
+>>>>>>> e66e7785fb0825e66400f46946fe5489a5f2b132
