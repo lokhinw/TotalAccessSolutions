@@ -89,7 +89,7 @@ body {
   text-align: center;
   font-family: ProximaThin;
   font-size: 22px;
-  font-weight: 500;
+  font-weight: 900;
   text-shadow: 0px 5px 5px #1e1e1e;
 }
 .slogan {
@@ -98,7 +98,7 @@ body {
   text-shadow: 0px 1px 5px #000;
   text-transform: uppercase;
   letter-spacing: 2px;
-  font-weight: 300;
+  font-weight: 500;
   text-align: center;
   font-size: 18px;
   font-family: ProximaThin;
@@ -120,7 +120,7 @@ body {
   text-align: center;
   font-family: ProximaThin;
   font-size: 30px;
-  font-weight: 500;
+  font-weight: 900;
   text-shadow: 0px 5px 5px #1e1e1e;
 }
 .slogan {
@@ -129,7 +129,7 @@ body {
   text-shadow: 0px 1px 5px #000;
   text-transform: uppercase;
   letter-spacing: 2px;
-  font-weight: 300;
+  font-weight: 500;
   text-align: center;
   font-size: 22px;
   font-family: ProximaThin;
@@ -151,7 +151,7 @@ body {
   text-align: center;
   font-family: ProximaThin;
   font-size: 48px;
-  font-weight: 500;
+  font-weight: 900;
   text-shadow: 0px 5px 5px #1e1e1e;
 }
 .slogan {
@@ -159,7 +159,7 @@ body {
   text-shadow: 0px 1px 5px #000;
   text-transform: uppercase;
   letter-spacing: 2px;
-  font-weight: 300;
+  font-weight: 500;
   text-align: center;
   font-size: 32px;
   font-family: ProximaThin;
@@ -181,7 +181,7 @@ body {
   text-align: center;
   font-family: ProximaThin;
   font-size: 80px;
-  font-weight: 500;
+  font-weight: 900;
   text-shadow: 0px 5px 5px #1e1e1e;
 }
 .slogan {
@@ -189,7 +189,7 @@ body {
   text-shadow: 0px 1px 5px #000;
   text-transform: uppercase;
   letter-spacing: 2px;
-  font-weight: 300;
+  font-weight: 500;
   text-align: center;
   font-size: 60px;
   font-family: ProximaThin;
@@ -822,7 +822,165 @@ hr{border:0;border-top:1px solid #eee;margin:20px 0}
   padding: 0 20px;
   font-family: ProximaBold;
 }
+@media only screen and (min-width: 320px) {
+  .phone-number {
+    position: absolute;
+    bottom: 47px;
+    right: 13px;
+    color: #472d23;
+    font-weight: 600;
+    font-size: 12px;
+  }
+  .social-media-container {
+    position: absolute;
+    bottom: 70px;
+    right: 10px;
+  }
+  .social-icon {
+    height: 12px !important;
+    width: auto !important;
+  }
+}
 
+@media only screen and (min-width: 480px) {
+  .phone-number {
+    position: absolute;
+    bottom: 62px;
+    right: 13px;
+    color: #472d23;
+    font-weight: 600;
+    font-size: 17px;
+  }
+  .social-media-container {
+    position: absolute;
+    bottom: 92px;
+    right: 10px;
+  }
+  .social-icon {
+    height: 17px !important;
+    width: auto !important;
+  }
+}
+
+@media only screen and (min-width: 640px) {
+  .phone-number {
+    position: absolute;
+    bottom: 75px;
+    right: 13px;
+    color: #472d23;
+    font-weight: 600;
+    font-size: 21px;
+  }
+  .social-media-container {
+    position: absolute;
+    bottom: 115px;
+    right: 10px;
+  }
+  .social-icon {
+    height: 21px !important;
+    width: auto !important;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .phone-number {
+    position: absolute;
+    bottom: 100px;
+    right: 13px;
+    color: #472d23;
+    font-weight: 600;
+    font-size: 27px;
+  }
+  .social-media-container {
+    position: absolute;
+    bottom: 145px;
+    right: 10px;
+  }
+  .social-icon {
+    height: 27px !important;
+    width: auto !important;
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+  .phone-number {
+    position: absolute;
+    bottom: 125px;
+    right: 13px;
+    color: #472d23;
+    font-weight: 600;
+    font-size: 27px;
+  }
+  .social-media-container {
+    position: absolute;
+    bottom: 175px;
+    right: 10px;
+  }
+  .social-icon {
+    height: 27px !important;
+    width: auto !important;
+  }
+}
+@media only screen and (min-width: 1280px) {
+  .phone-number {
+    position: absolute;
+    bottom: 190px;
+    right: 13px;
+    color: #472d23;
+    font-weight: 600;
+    font-size: 30px;
+  }
+  .social-media-container {
+    position: absolute;
+    bottom: 185px;
+    right: 10px;
+  }
+  .social-icon {
+    height: 30px !important;
+    width: auto !important;
+  }
+}
+
+
+@media only screen and (min-width: 1366px) {
+  .phone-number {
+    position: absolute;
+    bottom: 135px;
+    right: 13px;
+    color: #472d23;
+    font-weight: 600;
+    font-size: 30px;
+  }
+  .social-media-container {
+    position: absolute;
+    bottom: 185px;
+    right: 10px;
+  }
+  .social-icon {
+    height: 30px !important;
+    width: auto !important;
+  }
+}
+
+@media only screen and (min-width: 1680px) {
+  .phone-number {
+    position: absolute;
+    bottom: 220px;
+    right: 13px;
+    color: #472d23;
+    font-weight: 600;
+    font-size: 38px;
+  }
+  .social-media-container {
+    position: absolute;
+    bottom: 270px;
+    right: 10px;
+  }
+  .social-icon {
+    height: 38px !important;
+    width: auto !important;
+  }
+}
 .side-panel {
   display: block;
   padding: 20px 0;
