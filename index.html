@@ -36,6 +36,10 @@
 </head>
 
 <body>
+ <div id="loader-wrapper">
+        <div class="cssload-coffee"></div>
+
+    </div>
 <!--    <div class='side-panel'>
         <span class='unicode'>&nbsp; CONTACT &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<br>
         <br><div class="text-center">
@@ -963,10 +967,19 @@ Our core value is to be your one stop location for all your access needs, our co
     </div>
     <center><p style="margin-top:2.5%;color:grey;">&#9400 Total Access Solutions 2017 | Designed & Developed by Flyingpenguins.co</p></center>
   </footer>
-  <script src="vendor/jquery/jquery.js"></script>
+  
+  <script src="http://code.jquery.com/jquery-latest.min.js"></script>
   <script src="vendor/bootstrap/bootstrap.js"></script>
   <script src="vendor/smooth-scroll/smooth-scroll.js"></script>
   <script src="js/main.js"></script>
+      <script>
+	$(window).load(function() {
+            $('#loader-wrapper').addClass('animated slideOutDown').one('webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend', function() {
+                $(this).remove();
+            });
+        });
+
+    </script>
   <script>
     function initMap() {
       var uluru = {
