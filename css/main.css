@@ -984,48 +984,6 @@ hr{border:0;border-top:1px solid #eee;margin:20px 0}
     width: auto !important;
   }
 }
-.side-panel {
-  display: block;
-  padding: 20px 0;
-  position: fixed;
-  top: 10%;
-  right: -100px;
-  color: #fff;
-  -webkit-transition: 1s;
-  transition: 1s;
-  background-color: rgba(71, 45, 35, 0.5);
-  z-index: 100000;
-  text-decoration: none;
-  height: 65px;
-  border-radius: 5px;
-}
-
-.side-panel:link {
-  color: #fff;
-  text-decoration: none;
-}
-
-.side-panel:visited {
-  color: #fff;
-  text-decoration: none;
-}
-
-.side-panel:hover {
-  color: #fff;
-  text-decoration: none;
-}
-
-.side-panel:active {
-  color: #fff;
-  text-decoration: none;
-}
-
-.side-panel--close {
-  right: 0px;
-  height: 320px;
-  color: #fff;
-  background-color: rgba(71, 45, 35, 0.75);
-}
 
 #loader-wrapper {
     background: radial-gradient(#fd6a02, #ff942c);
@@ -1034,7 +992,7 @@ hr{border:0;border-top:1px solid #eee;margin:20px 0}
     left: 0;
     width: 100%;
     height: 100%;
-    z-index: 99999;
+    z-index: 999999999;
 }
 .cssload-coffee {
     margin-left: -51.5px !IMPORTANT;
@@ -4705,4 +4663,16 @@ body{
 
 .fa-paper-plane:before {
   content: "\f1d8";
+}
+
+.unicode {
+  padding: 0 20px;
+  font-family: ProximaBold;
+}
+
+
+.social-icon {
+ -webkit-transition: all .1s ease-in-out;
+  -moz-transition: all .1s ease-in-out;
+  transition: all .1s ease-in-out;
 }

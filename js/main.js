@@ -51,4 +51,12 @@ form.submit(function(event) {
 
 $(".side-panel").on("click", function(){
   $(this).toggleClass("side-panel--close");
+  	  if( $(".social-icon").css('visibility') == 'hidden') {
+	$(".social-icon").css("visibility", "visible");
+	return false;
+	  }
+	 if( $(".social-icon").css('visibility') == 'visible') {
+	$(".social-icon").css("visibility", "hidden");
+	return false;
+	  }
 });
