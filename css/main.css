@@ -4706,3 +4706,50 @@ body{
 .fa-paper-plane:before {
   content: "\f1d8";
 }
+.unicode {
+  padding: 0 20px;
+  font-family: ProximaBold;
+}
+
+.side-panel {
+  display: block;
+  padding: 20px 0px;
+  position: fixed;
+  top: 10%;
+  right: -100px;
+  color: #fff;
+  -webkit-transition: 1s;
+  transition: 1s;
+  background-color: rgba(71, 45, 35, 0.5);
+  z-index: 100000;
+  text-decoration: none;
+  height: 65px;
+  border-radius: 5px;
+}
+
+.side-panel:link {
+  color: #fff;
+  text-decoration: none;
+}
+
+.side-panel:visited {
+  color: #fff;
+  text-decoration: none;
+}
+
+.side-panel:hover {
+  color: #fff;
+  text-decoration: none;
+}
+
+.side-panel:active {
+  color: #fff;
+  text-decoration: none;
+}
+
+.side-panel--close {
+  right: 0px;
+  height: 320px;
+  color: #fff;
+  background-color: rgba(71, 45, 35, 0.75);
+}
