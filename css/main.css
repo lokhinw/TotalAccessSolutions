@@ -1034,7 +1034,7 @@ hr{border:0;border-top:1px solid #eee;margin:20px 0}
     left: 0;
     width: 100%;
     height: 100%;
-    z-index: 99999;
+    z-index: 999999999;
 }
 .cssload-coffee {
     margin-left: -51.5px !IMPORTANT;
@@ -4716,7 +4716,7 @@ body{
   padding: 20px 0px;
   position: fixed;
   top: 10%;
-  right: -100px;
+  right: -50px;
   color: #fff;
   -webkit-transition: 1s;
   transition: 1s;
@@ -4725,6 +4725,7 @@ body{
   text-decoration: none;
   height: 65px;
   border-radius: 5px;
+  width: 200px;
 }
 
 .side-panel:link {
@@ -4752,4 +4753,8 @@ body{
   height: 320px;
   color: #fff;
   background-color: rgba(71, 45, 35, 0.75);
+}
+
+.social-icon {
+	visibility: hidden;
 }
